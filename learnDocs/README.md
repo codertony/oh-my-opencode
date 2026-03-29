@@ -1,18 +1,36 @@
 # Oh My OpenAgent 学习文档集
 
-> 生成日期: 2026-03-28 | 基于 dev 分支
+> 生成日期：2026-03-28 | 基于 dev 分支 | 开发者架构文档
 
 ---
 
-## 文档概览
+## 文档分类
 
-本学习文档集包含以下文件：
+### 📘 用户文档
+- **[用户指南](../docs/guide/)** - 安装、快速开始、功能参考
+- **[配置参考](../docs/reference/configuration.md)** - 配置选项详解
 
+### 📗 架构文档 (learnCode/)
+- **[00-架构概览](./learnCode/00-架构概览/)** - 三层架构、OpenCode vs OMO、初始化流程
+- **[01-Harness 架构](./learnCode/01-Harness 架构/)** - Harness 职责、工具层、权限层
+- **[02-核心 Agent](./learnCode/02-核心 Agent/)** - 主要 Agent、咨询 Agent、Agent 编排
+- **[03-Hook 系统](./learnCode/03-Hook 系统/)** - Hook 分层、Session/Tool Guard/Transform Hooks
+- **[04-工具系统](./learnCode/04-工具系统/)** - 工具注册、文件操作、代码智能
+- **[05-功能模块](./learnCode/05-功能模块/)** - 后台 Agent、Tmux 集成、Skill 系统
+- **[06-上下文管理](./learnCode/06-上下文管理/)** - 会话上下文、上下文注入、压缩
+- **[07-配置系统](./learnCode/07-配置系统/)** - 配置加载、Schema 系统、模型解析
+- **[08-共享工具](./learnCode/08-共享工具/)** - 模型解析工具、Tmux 工具、配置工具
+- **[09-集成工作流](./learnCode/09-集成工作流/)** - 初始化序列、Hook 执行顺序、工具生命周期
+- **[10-测试约定](./learnCode/10-测试约定/)** - 测试设置、Given-When-Then、Mock 隔离
+
+**总计**: 49 个架构文档
+
+### 📙 学习路线
 | 文件 | 说明 |
 |------|------|
 | `start.md` | 原始学习路线指导文档（用户提供） |
-| `learning-roadmap.md` | **学习路线图** - 8个核心问题 + 8个学习阶段 |
-| `article-outline.md` | **系列文章大纲** - 13篇文章详细大纲 |
+| `learning-roadmap.md` | **学习路线图** - 8 个核心问题 + 8 个学习阶段 |
+| `article-outline.md` | **系列文章大纲** - 13 篇文章详细大纲 |
 | `engineering-architecture.md` | **工程架构深度解析** - 技术栈、测试、构建、CI/CD |
 | `README.md` | 本文件 - 文档索引 |
 
